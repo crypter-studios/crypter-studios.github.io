@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Crypter Studios</title>
+  <link rel="icon" href="https://crypter-studios.github.io/resources/cs-icon-nbg.png" type="image/x-icon">
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+  </style>
+  <style>
+    /* CSS Styles */
+    body {
+      transition: background-color 0.3s, color 0.3s;
+    }
+    /* Toggle button styles */
+    .dark-mode-toggle {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      width: 50px;
+      height: 30px;
+      background-color: #ddd;
+      border-radius: 15px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 0.3s;
+    }
+    .dark-mode-toggle:hover {
+      background-color: #bbb;
+    }
+    .dark-mode-toggle:active {
+      background-color: #999;
+    }
+    .dark-mode-toggle-label {
+      color: #333;
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .dark-mode-toggle.dark {
+      background-color: #333;
+    }
+    .dark-mode-toggle.dark .dark-mode-toggle-label {
+      color: #fff;
+    }
+    /* Dark mode styles */
+    body.dark-mode {
+      background-color: #0d1117;
+      color: #fff;
+    }
+  </style>
+</head>
+<body><blockquote>
+  <h1>Crypter Studios</h1><hr>
+  <p>Siamo uno studio di sviluppo di videogiochi basato sulla piattaforma Roblox, composto da esperti ed appassionati dell'industria dello sviluppo.</p>
+  
+  <p>Dal 2020, abbiamo portato avanti diversi progetti, tra cui il più notevole è quello delle Forze Armate Italiane, guidato da Sig_Vicirrity.</p>
+  
+  <h1>Progetti</h1><hr>
+  <p>Ecco una lista dei progetti pubblici che sono stati rilasciati o si trovano nelle rispettive fasi: In-Dev, Pre-Alpha, Alpha, Pre-Beta, Beta.</p>
+  
+  <ul>
+    <li><strong>FAI</strong> (In-Dev):
+      <ul>
+        <li>Progetto avviato nel 2020, basato sulla piattaforma Roblox. Maggiori informazioni su [https://crypter-studios.github.io/it/fai/about](https://crypter-studios.github.io/it/fai/about).</li>
+      </ul>
+    </li>
+    <li><strong>Insomnia</strong> (In-Dev, sospeso):
+      <ul>
+        <li>Progetto avviato nel 2021, basato sulla piattaforma Roblox. Attualmente sospeso.</li>
+      </ul>
+    </li>
+  </ul>
+  
+  <h1>Team</h1><hr>
+  <ul>
+    <li><strong>Halo</strong> (Sig_Vicirrity):
+      <ul>
+        <li>Sviluppatore Senior, Fondatore del progetto "FAI".</li>
+        <li>Portfolio: N/A</li>
+      </ul>
+
+
+    </li>
+    <li><strong>Taquito</strong> (Sticky_Sweat):
+      <ul>
+        <li>Sviluppatore Senior, Co-Fondatore del progetto "FAI".</li>
+        <li>Portfolio: N/A</li>
+      </ul>
+    </li>
+  </ul>
+  
+  <h1>Unisciti a noi</h1><hr>
+  <p>Ti invitiamo a far parte del nostro team!!</p>
+  <p>Non siamo esigenti e crediamo che ogni abilità, per quanto piccola, sia importante.</p>
+  <p>L'unico ma importante requisito è avere esperienza in uno dei seguenti campi:</p>
+  
+  <ol>
+    <li><strong>Sviluppo di videogiochi.</strong> Che tu abbia esperienza con il programma Roblox Studio, abbia sviluppato sulla piattaforma Unity 3D, Godot o altri motori di gioco, questa è l'opportunità per te. Ciò include la creazione di mappe, conoscenza di base della modellazione 3D, programmazione o altri campi correlati. <span role="img" aria-label="Hammer">&#x1F528;</span></li>
+    <li><strong>Programmazione.</strong> Se ti piace il codice, sarai un ottimo aggiunta al nostro team. Basta avere esperienza in un linguaggio di programmazione ad alto livello, come Python o JavaScript (o Lua 👀) e una conoscenza di base della programmazione ad oggetti (OOP). <span role="img" aria-label="Computer">&#x1F4BB;</span></li>
+    <li><strong>Produzione musicale.</strong> Se hai già creato musica in passato, questo non sarà una sfida per te, soprattutto se ti specializzi in musiche ambientali o nella creazione di effetti sonori. Preparati a produrre tutti i "bang, bang" che puoi. <span role="img" aria-label="Gun">&#x1F52B;</span></li>
+    <li><strong>Modellazione 3D.</strong> Hai esperienza con programmi come Blender 3D o Cinema 4D? Se sei in grado di creare modelli 3D con grande efficienza, siamo interessati a averti nel nostro team. <span role="img" aria-label="Star">&#x2B50;</span></li>
+  </ol>
+  
+  <p>Anche se non hai uno di questi requisiti, raccontaci cosa sai fare. Ci sono molte cose che non sono menzionate ma che sono così specifiche da non valere la pena di creare una categoria a parte.</p>
+  
+  <footer>
+    <p>© 2023 Crypter Studios. Tutti i diritti riservati.</p>
+    <p>example@example.com</p>
+  </footer>
+
+  <div class="dark-mode-toggle" onclick="toggleDarkMode()">
+    <span class="dark-mode-toggle-label">Chiaro</span>
+  </div>
+
+  <script>
+    function toggleDarkMode() {
+      const body = document.body;
+      const darkModeToggle = document.querySelector('.dark-mode-toggle');
+
+      body.classList.toggle('dark-mode');
+      darkModeToggle.classList.toggle('dark');
+
+      if (body.classList.contains('dark-mode')) {
+        darkModeToggle.innerHTML = '<span class="dark-mode-toggle-label">Scuro</span
+
+>';
+      } else {
+        darkModeToggle.innerHTML = '<span class="dark-mode-toggle-label">Chiaro</span>';
+      }
+    }
+  </script>
+</blockquote></body>
+</html>
