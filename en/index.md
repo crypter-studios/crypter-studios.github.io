@@ -37,6 +37,9 @@ The only, but important requirement is to have experience in any of the followin
 
 Even if you don't meet one of these requirements, tell us what you can do. There are many things that were not mentioned specifically, but they are so specific that it's not worth creating their own category.
 
+##### © 2023 Crypter Studios. Todos los derechos reservados.
+##### example@example.com
+
 <!-- CSS Styles -->
 <style>
   body {
