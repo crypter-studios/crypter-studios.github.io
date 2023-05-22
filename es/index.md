@@ -37,7 +37,7 @@ El único pero importante requisito es tener experiencia en alguno de los siguie
 
 Aún si no cuentas con uno de estos requisitos, cuéntanos qué sabes hacer. Hay muchas cosas que faltaron por poner, pero son tan específicas que no vale la pena hacerles su propia categoría.
 
-#### © 2023 Crypter Studios. Todos los derechos reservados.
+##### © 2023 Crypter Studios. Todos los derechos reservados.
 ##### example@example.com
 
 <!-- CSS Styles -->
