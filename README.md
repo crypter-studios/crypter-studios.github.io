@@ -1,3 +1,6 @@
+---
+title: ""
+---
 <h1 id="crypter-studios">Crypter Studios</h1>
 <p>Somos un estudio de desarrollo de videojuegos basados en la plataforma de <a href="https://www.roblox.com">Roblox</a> conformado por varios expertos y entusiastas de la creación de experiencias.</p>
 <p>Desde 2020 empezamos a impulsar diferentes proyectos, entre los más destacados se encuentra las <a href="https://crypter-studios.github.io/es/fai/about">Fuerzas Armadas Italianas</a>, liderado por Sig_Vicirrity y Sticky_Sweat (Crypterdev).</p>
