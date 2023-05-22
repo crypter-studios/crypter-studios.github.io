@@ -1,3 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    function toggleDarkMode() {
+      const body = document.body;
+      const darkModeToggle = document.querySelector('.dark-mode-toggle');
+
+      body.classList.toggle('dark-mode');
+      darkModeToggle.classList.toggle('dark');
+
+      if (body.classList.contains('dark-mode')) {
+        darkModeToggle.innerHTML = '<span class="dark-mode-toggle-label">Dark</span>';
+      } else {
+        darkModeToggle.innerHTML = '<span class="dark-mode-toggle-label">Light</span>';
+      }
+    }
+  </script>
+</head>
+<body>
 <h1 id="crypter-studios">Crypter Studios</h1>
 <p>We are a videogame development studio based on the <a href="https://www.roblox.com">Roblox</a> platform, comprised of various experts and enthusiasts in the development industry.</p>
 <p>Since 2020, we have been driving different projects, among which the most notable one is <a href="https://crypter-studios.github.io/en/fai/about">Italian Armed Forces</a>, led by Sig_Vicirrity.</p>
@@ -88,24 +108,10 @@
     color: #fff;
   }
 </style>
-<!-- a -->
-<!-- HTML Content --></p>
+<!-- HTML Content -->
+</p>
 <div class="dark-mode-toggle" onclick="toggleDarkMode()">
   <span class="dark-mode-toggle-label">Light</span>
 </div>
-
-<script>
-  function toggleDarkMode() {
-    const body = document.body;
-    const darkModeToggle = document.querySelector('.dark-mode-toggle');
-
-    body.classList.toggle('dark-mode');
-    darkModeToggle.classList.toggle('dark');
-
-    if (body.classList.contains('dark-mode')) {
-      darkModeToggle.innerHTML = '<span class="dark-mode-toggle-label">Dark</span>';
-    } else {
-      darkModeToggle.innerHTML = '<span class="dark-mode-toggle-label">Light</span>';
-    }
-  }
-</script>
+</body>
+</html>
