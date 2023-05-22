@@ -81,6 +81,12 @@ Aún si no cuentas con uno de estos requisitos, cuéntanos qué sabes hacer. Hay
   .dark-mode-toggle.dark .dark-mode-toggle-label {
     color: #fff;
   }
+
+  /* Estilos para modo oscuro */
+  body.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
 </style>
 
 <!-- HTML Content -->
