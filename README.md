@@ -84,7 +84,7 @@ Aún si no cuentas con uno de estos requisitos, cuéntanos qué sabes hacer. Hay
 
   /* Estilos para modo oscuro */
   body.dark-mode {
-    background-color: #333;
+    background-color: #0d1117;
     color: #fff;
   }
 </style>
