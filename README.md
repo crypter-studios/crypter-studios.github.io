@@ -1,8 +1,3 @@
-<!-- Enable Dark Mode Toggle -->
-<input type="checkbox" id="dark-mode-toggle">
-<label for="dark-mode-toggle" id="dark-mode-label"></label>
-
-<!-- Your HTML content goes here -->
 # Crypter Studios
 Somos un estudio de desarrollo de videojuegos basados en la plataforma de [Roblox](https://www.roblox.com) conformado por varios expertos y entusiastas de la creación de experiencias.
 
@@ -41,62 +36,70 @@ El único pero importante requisito es tener experiencia en alguno de los siguie
 4. <b>Modelado 3D.</b> ¿Tienes experiencia en programas como Blender 3D o Cinema 4D? Estás dentro. Si eres capaz de crear modelos 3D con gran eficacia, estamos interesados en tenerte en nuestro equipo.
 
 Aún si no cuentas con uno de estos requisitos, cuéntanos qué sabes hacer. Hay muchas cosas que faltaron por poner, pero son tan específicas que no vale la pena hacerles su propia categoría.
-<!-- CSS Styles for Dark Mode Toggle Button -->
+
+<!-- CSS Styles -->
 <style>
   body {
     transition: background-color 0.3s, color 0.3s;
   }
 
-  /* Dark Mode Toggle Button Styles */
-  #dark-mode-label {
+  /* Estilos del botón toggle */
+  .dark-mode-toggle {
     position: fixed;
     top: 10px;
     right: 10px;
-    width: 30px;
+    width: 50px;
     height: 30px;
     background-color: #ddd;
-    border-radius: 50%;
+    border-radius: 15px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: background-color 0.3s;
   }
 
-  #dark-mode-label:hover {
+  .dark-mode-toggle:hover {
     background-color: #bbb;
   }
 
-  #dark-mode-toggle {
-    display: none;
+  .dark-mode-toggle:active {
+    background-color: #999;
   }
 
-  #dark-mode-toggle:checked + #dark-mode-label {
+  .dark-mode-toggle-label {
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .dark-mode-toggle.dark {
     background-color: #333;
   }
 
-  #dark-mode-toggle:checked + #dark-mode-label:before {
-    content: "";
-    display: block;
-    width: 12px;
-    height: 12px;
-    background-color: #fff;
-    border-radius: 50%;
-    margin: 8px;
-    transition: transform 0.3s;
-  }
-
-  #dark-mode-toggle:checked + #dark-mode-label:hover:before {
-    transform: scale(1.2);
+  .dark-mode-toggle.dark .dark-mode-toggle-label {
+    color: #fff;
   }
 </style>
 
-<!-- JavaScript to handle Dark Mode toggle -->
-<script>
-  const darkModeToggle = document.getElementById('dark-mode-toggle');
+<!-- HTML Content -->
+<div class="dark-mode-toggle" onclick="toggleDarkMode()">
+  <span class="dark-mode-toggle-label">Light</span>
+</div>
 
-  darkModeToggle.addEventListener('change', () => {
-    if (darkModeToggle.checked) {
-      document.body.classList.add('dark-mode');
+<script>
+  function toggleDarkMode() {
+    const body = document.body;
+    const darkModeToggle = document.querySelector('.dark-mode-toggle');
+
+    body.classList.toggle('dark-mode');
+    darkModeToggle.classList.toggle('dark');
+
+    if (body.classList.contains('dark-mode')) {
+      darkModeToggle.innerHTML = '<span class="dark-mode-toggle-label">Dark</span>';
     } else {
-      document.body.classList.remove('dark-mode');
+      darkModeToggle.innerHTML = '<span class="dark-mode-toggle-label">Light</span>';
     }
-  });
+  }
 </script>
