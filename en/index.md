@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Page Title</title>
-<!--<link rel="icon" href="favicon.ico" type="image/x-icon">-->
-<meta name="description" content="Page description goes here.">
-</head>
-<body>
 # Crypter Studios
 We are a videogame development studio based on the [Roblox](https://www.roblox.com) platform, comprised of various experts and enthusiasts in the development industry.
 
@@ -123,5 +114,3 @@ Even if you don't meet one of these requirements, tell us what you can do. There
     }
   }
 </script>
-</body>
-</html>
