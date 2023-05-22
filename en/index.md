@@ -1,5 +1,5 @@
 # Crypter Studios
-We are a video game development studio based on the [Roblox](https://www.roblox.com) platform, comprised of various experts and enthusiasts in the development industry.
+We are a videogame development studio based on the [Roblox](https://www.roblox.com) platform, comprised of various experts and enthusiasts in the development industry.
 
 Since 2020, we have been driving different projects, among which the most notable one is [Italian Armed Forces](https://crypter-studios.github.io/en/fai/about), led by Sig_Vicirrity.
 
