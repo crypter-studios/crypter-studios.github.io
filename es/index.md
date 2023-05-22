@@ -37,6 +37,9 @@ El único pero importante requisito es tener experiencia en alguno de los siguie
 
 Aún si no cuentas con uno de estos requisitos, cuéntanos qué sabes hacer. Hay muchas cosas que faltaron por poner, pero son tan específicas que no vale la pena hacerles su propia categoría.
 
+### © 2023 Crypter Studios. Todos los derechos reservados.
+## example@example.com
+
 <!-- CSS Styles -->
 <style>
   body {
@@ -91,7 +94,7 @@ Aún si no cuentas con uno de estos requisitos, cuéntanos qué sabes hacer. Hay
 
 <!-- HTML Content -->
 <div class="dark-mode-toggle" onclick="toggleDarkMode()">
-  <span class="dark-mode-toggle-label">Light</span>
+  <span class="dark-mode-toggle-label">Claro</span>
 </div>
 
 <script>
@@ -103,9 +106,9 @@ Aún si no cuentas con uno de estos requisitos, cuéntanos qué sabes hacer. Hay
     darkModeToggle.classList.toggle('dark');
 
     if (body.classList.contains('dark-mode')) {
-      darkModeToggle.innerHTML = '<span class="dark-mode-toggle-label">Dark</span>';
+      darkModeToggle.innerHTML = '<span class="dark-mode-toggle-label">Oscuro</span>';
     } else {
-      darkModeToggle.innerHTML = '<span class="dark-mode-toggle-label">Light</span>';
+      darkModeToggle.innerHTML = '<span class="dark-mode-toggle-label">Claro</span>';
     }
   }
 </script>
