@@ -7,7 +7,7 @@ Desde 2020 empezamos a impulsar diferentes proyectos, entre los más destacados 
 Aquí se mostrarán los proyectos públicos que ya fueron lanzados o están en su versión In-Dev, Pre-Alpha, Alpha, Pre-Beta, Beta.
 
 - <b>FAI</b> (In-Dev):
-    - Proyecto empezado desde 2020 basado en la plataforma Roblox. Más información en https://crypter-studios.github.io/es/fai/about.
+    - Proyecto empezado desde 2020 basado en la plataforma Roblox. Más información en [https://crypter-studios.github.io/es/fai/about](https://crypter-studios.github.io/es/fai/about).
 
 - <b>Insomnia</b> (In-Dev, suspendido):
     - Proyecto empezado desde 2021 basado en la plataforma de Roblox. Actualmente suspendido.
