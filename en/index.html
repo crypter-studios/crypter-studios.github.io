@@ -1,6 +1,115 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
+  <title>Crypter Studios</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    /* CSS Styles */
+    body {
+      transition: background-color 0.3s, color 0.3s;
+    }
+    /* Toggle button styles */
+    .dark-mode-toggle {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      width: 50px;
+      height: 30px;
+      background-color: #ddd;
+      border-radius: 15px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 0.3s;
+    }
+    .dark-mode-toggle:hover {
+      background-color: #bbb;
+    }
+    .dark-mode-toggle:active {
+      background-color: #999;
+    }
+    .dark-mode-toggle-label {
+      color: #333;
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .dark-mode-toggle.dark {
+      background-color: #333;
+    }
+    .dark-mode-toggle.dark .dark-mode-toggle-label {
+      color: #fff;
+    }
+    /* Dark mode styles */
+    body.dark-mode {
+      background-color: #0d1117;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <h1>Crypter Studios</h1>
+  <p>We are a videogame development studio based on the <a href="https://www.roblox.com">Roblox</a> platform, comprised of various experts and enthusiasts in the development industry.</p>
+  
+  <p>Since 2020, we have been driving different projects, among which the most notable one is <a href="https://crypter-studios.github.io/en/fai/about">Italian Armed Forces</a>, led by Sig_Vicirrity.</p>
+  
+  <h2>Projects</h2>
+  <p>Here's a list of the public projects that have been released or are on its respective stage: In-Dev, Pre-Alpha, Alpha, Pre-Beta, Beta.</p>
+  
+  <ul>
+    <li><strong>FAI</strong> (In-Dev):
+      <ul>
+        <li>Project started in 2020, based on the Roblox platform. More information at <a href="https://crypter-studios.github.io/en/fai/about">https://crypter-studios.github.io/en/fai/about</a>.</li>
+      </ul>
+    </li>
+    <li><strong>Insomnia</strong> (In-Dev, suspended):
+      <ul>
+        <li>Project started in 2021, based on the Roblox platform. Currently suspended.</li>
+      </ul>
+    </li>
+  </ul>
+  
+  <h2>Team</h2>
+  <ul>
+    <li><strong>Halo</strong> (Sig_Vicirrity):
+      <ul>
+        <li>Senior Developer, Founder of the "FAI" project.</li>
+        <li>Portfolio: N/A</li>
+      </ul>
+    </li>
+    <li><strong>Crypter</strong> (Sticky_Sweat):
+      <ul>
+        <li>Senior Developer, Co-Founder of the "FAI" project.</li>
+        <li>Portfolio: N/A</li>
+      </ul>
+    </li>
+  </ul>
+  
+  <h2>Join Us</h2>
+  <p>We invite you to be a part of our team!</p>
+  <p>We are not demanding and believe that every skill, no matter how small, counts.</p>
+  <p>The only, but important requirement is to have experience in any of the following fields:</p>
+  
+  <ol>
+    <li><strong>Game Development.</strong> It's highly recommended to have previous experience with any 3D game engine, such as Roblox Studio, Unity 3D, Godot, among others (this includes map creation, basic knowledge of 3D modeling, programming, or other related fields). <span role="img" aria-label="Hammer">&#x1F528;</span></li>
+    <li><strong>Programming.</strong> If coding is your thing, you'll fit right into our team! You just need experience in a high-level programming language like Python or Javascript (or Lua <span role="img" aria-label="Eyes">&#x1F440;</span>) and a basic understanding of object-oriented programming (OOP). <span role="img" aria-label="Computer">&#x1F4BB;</span></li>
+    <li><strong>Music Production.</strong> If you have already created music, this won't be challenging for you, especially if you specialize in musical ambiance or sound effects creation. Get ready to produce as many "bang, bang" sounds as you can. <span role="img" aria-label="Gun">&#x1F52B;</span></li>
+    <li><strong>3D Modeling.</strong> Do you have experience with programs like Blender 3D or Cinema 4D? You're in. If you can create 3D models with great efficiency, we're interested in having you on our team. <span role="img" aria-label="Star">&#x2B50;</span></li>
+  </ol>
+  
+  <p>Even if you don't meet one of these requirements, tell us what you can do. There are many things that were not mentioned specifically, but they are so specific that it's not worth creating their own category.</p>
+  
+  <footer>
+    <p>© 2023 Crypter Studios. Todos los derechos reservados.</p>
+    <p>example@example.com</p>
+  </footer>
+
+  <div class="dark-mode-toggle" onclick="toggleDarkMode()">
+    <span class="dark-mode-toggle-label">Light</span>
+  </div>
+
   <script>
     function toggleDarkMode() {
       const body = document.body;
@@ -16,102 +125,5 @@
       }
     }
   </script>
-</head>
-<body>
-<h1 id="crypter-studios">Crypter Studios</h1>
-<p>We are a videogame development studio based on the <a href="https://www.roblox.com">Roblox</a> platform, comprised of various experts and enthusiasts in the development industry.</p>
-<p>Since 2020, we have been driving different projects, among which the most notable one is <a href="https://crypter-studios.github.io/en/fai/about">Italian Armed Forces</a>, led by Sig_Vicirrity.</p>
-<h1 id="projects">Projects</h1>
-<p>Here&#39;s a list of the public projects that have been released or are on its respective stage: In-Dev, Pre-Alpha, Alpha, Pre-Beta, Beta.</p>
-<ul>
-<li><p><strong>FAI</strong> (In-Dev):</p>
-<ul>
-<li>Project started in 2020, based on the Roblox platform. More information at <a href="https://crypter-studios.github.io/en/fai/about">https://crypter-studios.github.io/en/fai/about</a>.</li>
-</ul>
-</li>
-<li><p><strong>Insomnia</strong> (In-Dev, suspended):</p>
-<ul>
-<li>Project started in 2021, based on the Roblox platform. Currently suspended.</li>
-</ul>
-</li>
-</ul>
-<h1 id="team">Team</h1>
-<p>This section displays the credits to our team within the studio.</p>
-<ul>
-<li><p><strong>Halo</strong> (Sig_Vicirrity)</p>
-<ul>
-<li>Senior Developer, Founder of the &quot;FAI&quot; project.</li>
-<li>Portfolio: N/A</li>
-</ul>
-</li>
-<li><p><strong>Crypter</strong> (Sticky_Sweat)</p>
-<ul>
-<li>Senior Developer, Co-Founder of the &quot;FAI&quot; project.</li>
-<li>Portfolio: N/A</li>
-</ul>
-</li>
-</ul>
-<h1 id="join-us">Join Us</h1>
-<p>We invite you to be a part of our team!</p>
-<p>We are not demanding and believe that every skill, no matter how small, counts.</p>
-<p>The only, but important requirement is to have experience in any of the following fields:</p>
-<ol>
-<li><strong>Game Development.</strong> It&#39;s highly recommended to have previous experience with any 3D game engine, such as Roblox Studio, Unity 3D, Godot, among others (this includes map creation, basic knowledge of 3D modeling, programming, or other related fields). 🔨</li>
-<li><strong>Programming.</strong> If coding is your thing, you&#39;ll fit right into our team! You just need experience in a high-level programming language like Python or Javascript (or Lua 👀) and a basic understanding of object-oriented programming (OOP). 💻</li>
-<li><strong>Music Production.</strong> If you have already created music, this won&#39;t be challenging for you, especially if you specialize in musical ambiance or sound effects creation. Get ready to produce as many &quot;bang, bang&quot; sounds as you can. 🔫</li>
-<li><strong>3D Modeling.</strong> Do you have experience with programs like Blender 3D or Cinema 4D? You&#39;re in. If you can create 3D models with great efficiency, we&#39;re interested on having you on our team. 🌟</li>
-</ol>
-<p>Even if you don&#39;t meet one of these requirements, tell us what you can do. There are many things that were not mentioned specifically, but they are so specific that it&#39;s not worth creating their own category.</p>
-<h5 id="-2023-crypter-studios-todos-los-derechos-reservados-">© 2023 Crypter Studios. Todos los derechos reservados.</h5>
-<h5 id="example-example-com">example@example.com</h5>
-<!-- CSS Styles -->
-<p><style>
-  body {
-    transition: background-color 0.3s, color 0.3s;
-  }</p>
-<p>  /<em> Toggle button styles </em>/
-  .dark-mode-toggle {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    width: 50px;
-    height: 30px;
-    background-color: #ddd;
-    border-radius: 15px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 0.3s;
-  }</p>
-<p>  .dark-mode-toggle:hover {
-    background-color: #bbb;
-  }</p>
-<p>  .dark-mode-toggle:active {
-    background-color: #999;
-  }</p>
-<p>  .dark-mode-toggle-label {
-    color: #333;</p>
-<p> font-size: 12px;
-    font-weight: bold;
-    text-transform: uppercase;
-  }</p>
-<p>  .dark-mode-toggle.dark {
-    background-color: #333;
-  }</p>
-<p>  .dark-mode-toggle.dark .dark-mode-toggle-label {
-    color: #fff;
-  }</p>
-<p>  /<em> Dark mode styles </em>/
-  body.dark-mode {
-    background-color: #0d1117;
-    color: #fff;
-  }
-</style>
-<!-- HTML Content -->
-</p>
-<div class="dark-mode-toggle" onclick="toggleDarkMode()">
-  <span class="dark-mode-toggle-label">Light</span>
-</div>
 </body>
 </html>
