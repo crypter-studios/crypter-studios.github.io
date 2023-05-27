@@ -1,3 +1,4 @@
+<!--
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -10,5 +11,106 @@
 </head>
 <body>
 	<p>TEST</p>
+</body>
+</html>
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <link rel="icon" href="../resources/cs-icon-nbg.png">
+    <title>Créditos</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #0D1117;
+            margin: 0;
+            padding: 0;
+        }
+	    
+        .topbar {
+            border-bottom: 3px solid #3D4B5D;
+            font-weight: bold;
+            background-color: #161B22;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+
+        .topbar img {
+            height: 40px;
+        }
+
+        .topbar .buttons-container {
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+        }
+
+        .topbar ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .topbar li {
+            margin-right: 10px;
+        }
+
+        .topbar a {
+            text-decoration: none;
+            color: #F0F6FC;
+            padding: 5px;
+            transition: color 0.3s;
+        }
+
+        .topbar a:hover {
+            color: #6F7275;
+        }
+
+        .topbar .search-box {
+            display: flex;
+            align-items: center;
+            background-color: #ffffff;
+            border-radius: 20px;
+            padding: 5px;
+            margin-left: auto;
+        }
+
+        .topbar .search-box input[type="text"] {
+            border: none;
+            outline: none;
+            padding: 5px;
+            width: 150px;
+        }
+
+        .topbar .search-box img {
+            height: 16px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <img src="https://crypter-studios.github.io/resources/cs-icon-nbg.png" alt="Imagen">
+
+        <div class="buttons-container">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Créditos</a></li>
+            </ul>
+        </div>
+
+        <div class="search-box">
+            <img src="https://crypter-studios.github.io/resources/search.png" alt="Icono">
+            <input type="text" placeholder="Explorar...">
+        </div>
+    </div>
 </body>
 </html>
